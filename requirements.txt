@@ -1,0 +1,4 @@
+cloudevents
+boto3
+pgpubsub
+requests
