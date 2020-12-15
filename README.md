@@ -1,6 +1,6 @@
 # cloud_events
 
-cloud_events is a python process that runs alongside a postgres database. It listens to events raised by the database (i.e. NOTIFY statements or pg_notify calls), and generate a `cloudevent` in response.
+cloud_events is a python process that runs alongside a postgres database. It listens to events raised by the database (i.e. NOTIFY statements or pg_notify calls), and generates a `cloudevent` in response.
 
 The `cloudevent` conforms to the CNCF [specification](https://cloudevents.io/), and is sent to Amazon SNS. Events are also logged to cloud_events.log. 
 
